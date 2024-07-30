@@ -12,7 +12,7 @@ Quizer is a great way to assess one's aptitude skills. This project provides a p
 
 
 ## TechStack
-- Frontend: React
+- Frontend: React , Vite
 - Backend: Local server using XAMPP
 - Database: MySQL (hosted on XAMPP)
 The questions are fetched from a local database and displayed on the frontend, allowing for a smooth and interactive experience.
@@ -38,6 +38,37 @@ Image of the local database where questions and user data are stored.
 
 <img src="https://github.com/user-attachments/assets/9c55ad30-2bfd-4769-b008-551c04f7929b" alt="Local Database" width="300"/>
 ## How It Works
+
 1. Choose Genre: Users start by choosing a genre and activity on the landing page.
 2. Take the Test: Based on the selection, questions are fetched from the MySQL database and displayed.
 3. Submit and View Results: Users submit their answers and immediately see their results.
+## Screenshots
+
+#### Get all items
+1. Clone the repository
+```http
+  git clone https://github.com/your-repo/quizer.git
+cd quizer
+```
+
+2. Set up the local server:
+
+- Install XAMPP.
+- Start Apache and MySQL services.
+
+3. Set up the database
+- Import the provided SQL file into your local MySQL database using phpMyAdmin or any MySQL client.
+- Update the database configuration in the api folder where you will get fetchquestions.php code.
+
+4. install fronend dependencies
+```
+npm create vite@latest
+```
+
+5. Run the Vite app and start XAMPP server and database
+```
+npm run dev
+```
+Now, you should be able to access the app in your browser and start testing your aptitude skills!
+
+
