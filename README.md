@@ -37,18 +37,22 @@ Image of how the results are shown after the test is submitted.
 Image of the local database where questions and user data are stored.
 
 <img src="https://github.com/user-attachments/assets/9c55ad30-2bfd-4769-b008-551c04f7929b" alt="Local Database" width="300"/>
-## How It Works
+
+
+# How It Works
 
 1. Choose Genre: Users start by choosing a genre and activity on the landing page.
 2. Take the Test: Based on the selection, questions are fetched from the MySQL database and displayed.
 3. Submit and View Results: Users submit their answers and immediately see their results.
-## Screenshots
+
+
+## Steps to try by yourself
 
 #### Get all items
 1. Clone the repository
-```http
-  git clone https://github.com/your-repo/quizer.git
-cd quizer
+```
+  git clone https://github.com/Himanshu-Adhikari/Quizer.git
+  cd quizer
 ```
 
 2. Set up the local server:
